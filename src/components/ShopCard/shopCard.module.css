@@ -1,0 +1,17 @@
+.shopCard {
+    width: 28%;
+    margin: 5px;
+    text-align: center;
+    /* border: 1px solid black; */
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding-bottom: 5px;
+}
+
+img {
+    width: 80%;
+}
+
+.price-container {
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -20,7 +20,7 @@ export function Store() {
   return (
     <div className={classes.container}>
         <IconSwitch icon={ cardsView? 'view_module': 'view_list' } onSwitch={ handleViewSwitch }/>
-        { cardsView? <ListView cards = { products }/> : <CardsView cards = { products }/> }
+        { cardsView? <ListView items = { products }/> : <CardsView cards = { products }/> }
     </div>
     
   )
